@@ -11,3 +11,5 @@ function displayImage(){
     var num = Math.floor(Math.random() * imagesArray.length);
     document.getElementById('hello').src = imagesArray[num];
 }
+
+displayImage();
